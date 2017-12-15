@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+	background-color: #CEF6F5;
+	font-family: 'Pacifico', cursive;
+	font-size:12px;
+}
+div#content {
+	border:2px solid yellow;
+	width:800px;
+	margin:20px;
+	padding:50px;
+}
+
+header,section,footer {
+	border:1px solid violet;
+	width:80%;
+}
+
+section p {
+	width:60%;
+	float:left;
+}
+
+section img {
+	display:block;
+	width:30%;
+	float:right;
+}
+
+section hr {
+	dosplay:block;
+	margin:auto;
+	width:80%;
+}
+
+section iframe{
+	width:50%;
+	float:left;
+	display:block;
+}
+
+h2{
+    font-family: 'Indie Flower', cursive;
+     text-align: center;
+     text-transform: uppercase;
+     font-size:20px;
+}
+
+footer{
+	clear:all;
+	
+}
+footer ul{
+	display:inline-block;
+	
+}
+footer ul li{
+	float:left;
+	width:100px;
+	border:1px solid green;
+	text-align: center;
+	list-style:none;
+}
+
+footer ul li a{
+	
+}
